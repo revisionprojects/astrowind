@@ -1,6 +1,3 @@
-import path from 'path';
-import { fileURLToPath } from 'url';
-
 import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
@@ -83,8 +80,8 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '~': path.resolve(__dirname, './src'),
-      },
-    },
+        '~': '/src'
+      }
+    }
   },
 });
