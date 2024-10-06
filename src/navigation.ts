@@ -2,7 +2,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
+ /*    {
       text: 'Homes',
       links: [
         {
@@ -22,9 +22,37 @@ export const headerData = {
           href: getPermalink('/homes/personal'),
         },
       ],
-    },
+    }, */
     {
-      text: 'Pages',
+      text: 'Services',
+      links: [
+        {
+          text: 'Services',
+          href: getPermalink('/services'),
+        },
+      {
+        text: 'Pricing',
+        links: [
+          {
+            text: 'Pricing',
+            href: getPermalink('/pricing'),
+          }]},
+        {
+        text: 'About us',
+        links: [
+          {
+            text: 'About us',
+            href: getPermalink('/about'),
+          }]},
+          {
+          text: 'Contact',
+          links: [
+            {
+              text: 'Contact',
+              href: getPermalink('/contact'),
+            }]},
+    {
+      /* text: 'Pages',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -53,8 +81,8 @@ export const headerData = {
         {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
-        },
-      ],
+        }, */
+      /* ], */
     },
     {
       text: 'Landing',
