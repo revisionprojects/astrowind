@@ -1,6 +1,6 @@
 site:
   name: TechGuy.ai
-  site: 'https://astrowind.vercel.app'
+  site: 'https://techguy.ai'
   base: '/'
   trailingSlash: false
 
@@ -9,7 +9,7 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: TechGuy.ai
     template: '%s — AstroWind'
   description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
