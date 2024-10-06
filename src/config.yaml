@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: TechGuy.ai
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
