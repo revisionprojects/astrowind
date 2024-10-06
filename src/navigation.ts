@@ -11,14 +11,6 @@ export const headerData = {
       href: getPermalink('/services'),
     },
     {
-      text: 'About Us',
-      href: getPermalink('/about'),
-    },
-    {
-      text: 'Contact',
-      href: getPermalink('/contact'),
-    },
-    {
       text: 'Blog',
       links: [
         {
@@ -42,6 +34,14 @@ export const headerData = {
           href: getPermalink('astro', 'tag'),
         },
       ],
+    },
+    {
+      text: 'About',
+      href: getPermalink('/about'),
+    },
+    {
+      text: 'Contact',
+      href: getPermalink('/contact'),
     },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
